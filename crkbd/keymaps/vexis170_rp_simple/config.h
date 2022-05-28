@@ -114,3 +114,6 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #ifndef RGB_MATRIX_ENABLE
 #   define SPLIT_WPM_ENABLE
 #endif
+
+#define RP2040_BOOTLOADER_DOUBLE_TAP_RESET
+#define RP2040_BOOTLOADER_DOUBLE_TAP_RESET_TIMEOUT 500U 
