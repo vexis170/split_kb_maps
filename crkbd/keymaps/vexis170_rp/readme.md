@@ -1,4 +1,5 @@
-# CRKBD (RP2040) Layout (adapted from jp230s rp2040)
+# CRKBD (RP2040) Layout 
+(adapted from jp230s rp2040, just changed keymap)
 
 ## Layers
 The four layers:
