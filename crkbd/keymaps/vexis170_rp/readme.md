@@ -1,4 +1,4 @@
-# Jpe230's CRKBD (RP2040) Layout
+# CRKBD (RP2040) Layout (adapted from jp230s rp2040)
 
 ## Layers
 The four layers:
@@ -11,7 +11,7 @@ The four layers:
 - Master: Renders layer state + keylog
 - Slave : Renders an animation of a cat that varies its animation speed based on the current WPM
 
-## Changes vs my Pro Micro Board
+## differences from Pro Micro Board
 - Updated `rules.mk`:
   - Set MCU to `RP2040`
   - WS2812 driver to `pio`
@@ -23,4 +23,4 @@ The four layers:
 - Added `halconf.h` to enable I2C (for OLED)
 
 ## Flashing
-Flash using `qmk compile -kb crkbd -km jpe230_rp` for Pro Micro
+Flash using `qmk compile -kb crkbd -km vexis170_rp` for Pro Micro
