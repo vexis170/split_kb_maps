@@ -1,6 +1,6 @@
 
 ## Flashing
-Flash using `qmk compile -kb crkbd -km vexis170_rp` for Pro Micro
+Flash using `qmk compile -kb crkbd -km vexis170_rp_simple` for Pro Micro
 
 
 ## Keymap
