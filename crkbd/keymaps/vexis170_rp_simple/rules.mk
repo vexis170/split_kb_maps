@@ -3,7 +3,7 @@ BOOTLOADER = rp2040
 
 RGB_MATRIX_ENABLE = yes
 WS2812_DRIVER     = pio
-OLED_ENABLE       = yes
+OLED_ENABLE       = no
 OLED_DRIVER       = SSD1306
 SERIAL_DRIVER     = pio
 VIA_ENABLE        = yes
