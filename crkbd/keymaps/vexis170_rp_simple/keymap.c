@@ -19,6 +19,8 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #include QMK_KEYBOARD_H
 #include <stdio.h>
 
+/*begin layout definition -- replace this block with your layout*/
+
 #define _LAYER0 0
 #define _LAYER1 1
 #define _LAYER2 2
@@ -42,6 +44,8 @@ enum custom_keycodes {
 [_LAYER3] = LAYOUT(KC_TRNS, KC_F1, KC_F2, KC_F3, KC_F4, KC_NO, KC_NO, KC_HOME, KC_END, KC_PGUP, KC_PGDN, KC_DEL, KC_TRNS, KC_F5, KC_F6, KC_F7, KC_F8, KC_NO, KC_APP, KC_LEFT, KC_DOWN, KC_UP, KC_RGHT, KC_CAPS, KC_TRNS, KC_F9, KC_F10, KC_F11, KC_F12, KC_NO, KC_BTN1, KC_MS_L, KC_MS_D, KC_MS_U, KC_MS_R, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS) 
 
 };
+
+/*end of layout definition*/
 
 #ifdef OLED_ENABLE
 oled_rotation_t oled_init_user(oled_rotation_t rotation) {
